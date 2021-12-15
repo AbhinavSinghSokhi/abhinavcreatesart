@@ -1,0 +1,342 @@
+body{
+  background-color: #112031;
+  color: #D4ECDD;
+  margin: 0;
+}
+
+/*
+ul {
+  list-style: none;
+  display: inline;
+}
+
+li {
+  display: inline;
+}
+
+.nav-list{
+  display: inline;
+  text-align: right;
+}
+*/
+.intro-video {
+  position: relative;
+}
+
+.intro-div {
+  padding: 1px;
+}
+
+.intro-name {
+  padding: 10px;
+  position: absolute;
+  left: 30%;
+  top: 40%;
+  text-transform: uppercase;
+}
+
+.contact-me {
+  padding: 50px;
+  background-color: #112031;
+}
+
+.contact-me-padding {
+  background-color: #000000;
+  padding: 50px;
+}
+
+.about-section {
+  padding: 50px;
+  background-color: #112031;
+}
+
+.about-section-detail {
+  padding: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: black;
+}
+
+
+
+.nav-bar {
+  padding: 1.7% 2%;
+  width: 100%;
+  background-color: #112031;
+}
+
+
+.logo {
+  display: inline-block;
+}
+
+.home {
+  display: inline-block;
+  margin-left: 50%;
+}
+
+.blog {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.shop {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.project {
+  margin-left: 30px;
+}
+
+.gallery {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.Contact {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.insta {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.youtube {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+/* blogs section */
+
+.card-body {
+  color: black;
+}
+
+.blog-thumbnail{
+  display: inline;
+}
+
+.btn {
+  background-color: #112031;
+}
+
+.carousel {
+  text-align: center;
+  padding: 7% 10%;
+}
+
+.carousel-slide {
+    text-align: center;
+    padding: 7% 10%;
+}
+
+/* footer section*/
+
+#footer {
+  text-align: center;
+  padding: 2% 5%;
+}
+
+.footer-icon {
+  padding: 2%;
+  line-height: 1.5;
+  color: #D4ECDD;
+}
+
+.footer-icon:hover {
+  color: white;
+}
+
+/* blog styling */
+.full-blog {
+  padding: 5% 10%;
+}
+
+.blog-intro-div {
+  background-color: #6dc0af;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.blogs-heading {
+  color: white;
+}
+
+.blog-intro-img {
+  width: 75%;
+}
+
+.blogs-grid {
+  padding: 5% 7%;
+  text-align: center;
+}
+
+.blog-page-thumbnail {
+  padding: 1%;
+  width: 24.6rem;
+}
+
+/* Gallery */
+.gallery-body {
+  padding: 5% 8%;
+  text-align: center;
+}
+
+.photo-gallery {
+  width: 100%;
+  padding-top: 8%;
+}
+
+.heading-pv-gallery {
+  padding-top: 8%;
+}
+
+.gallery-youtube-section {
+}
+
+
+/* project /Learn Section */
+
+.learn-intro-img {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.SBS-heading {
+  position: absolute;
+  top: 23%;
+  left: 20%;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.SBS-subheading-div {
+  position: absolute;
+  top: 53%;
+  right: 10%;
+
+}
+
+.SBS-subheading {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3.3rem;
+}
+
+.SBS-data {
+  padding: 5% 3%;
+}
+
+.SBS-mypaintings{
+  padding-bottom: 4%;
+}
+
+.SBS-popularpaintings {
+  padding-bottom: 4%;
+}
+
+.SBS-individual-headings {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+/* monalisa step by step */
+
+/* The sidebar menu */
+.sidenav {
+  height: 84.8%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  float: left;/*to make it stick to left in normal positioning*/
+  /*position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  bottom: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/* STOPWATCH cODE */
+.stopwatch-button {
+    width: 100px;
+    height: 30px;
+    border: 3px sol white;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#stopwatch {
+    font-size: 100px;
+    position: absolute ;
+    top: 45%;
+    left: 85%;
+    transform: translate(-50%, -55%);
+}
+#buttons {
+    position: absolute ;
+    top: 55%;
+    left: 70%;
+    /* transform: translate(-51.6%, -45%); */
+}
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
+
+.insert-file {
+  position: absolute;
+  top : 65%;
+  left: 80%;
+}
+.Next-button {
+    position: absolute;
+    top : 75%;
+    left: 81.3%;
+}
+
+.Analyze-button {
+  position: absolute;
+  top: 85%;
+  left: 79%;
+}
+
+.sunset-intro-img {
+  width: 15%;
+  height: 20%;
+}
