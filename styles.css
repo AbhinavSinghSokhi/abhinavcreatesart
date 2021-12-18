@@ -123,6 +123,49 @@ li {
   background-color: #112031;
 }
 
+.shop-section {
+  padding: 2% 6%;
+  text-align: center;
+  background-color: #345B63;
+}
+
+.sbs-heading-home {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.sbs-section {
+  padding: 2% 6%;
+}
+
+.sbs-home-image {
+  width: 100%;
+}
+
+.sbs-text-home {
+  padding: 2%;
+}
+
+.sbs-home-watch {
+  text-align: left;
+  width: 70%;
+  font-size: 1.2rem;
+}
+
+.sbs-home-practise {
+  text-align: right;
+  padding-top: 2%;
+  margin-left: 30%;
+  font-size: 1.2rem;
+}
+
+.sbs-home-analyse {
+  text-align: left;
+  width: 70%;
+  font-size: 1.2rem;
+}
+
 .carousel {
   text-align: center;
   padding: 7% 10%;
@@ -177,6 +220,16 @@ li {
 .blog-page-thumbnail {
   padding: 1%;
   width: 24.6rem;
+}
+
+/* shop section */
+.shop-body {
+  padding: 4% 8%;
+  text-align: center;
+}
+
+.shop-card {
+  padding: 1%;
 }
 
 /* Gallery */
@@ -334,6 +387,46 @@ li {
   position: absolute;
   top: 85%;
   left: 79%;
+}
+
+.generate-button {
+  position: absolute;
+  top: 95%;
+  left: 80%;
+}
+
+.result-page {
+  text-align: center;
+}
+
+.result {
+  background-color: #345B63;
+  display: inline-block;
+}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
 }
 
 .sunset-intro-img {
